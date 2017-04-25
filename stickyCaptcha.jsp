@@ -18,6 +18,8 @@
     <p><a href="remove.jsp">Remove from session</a></p>
 
     <p><a href="<c:url value="simpleCaptcha.jsp" />">Simple CAPTCHA</a> | Sticky CAPTCHA  | <a href="<c:url value="audioCaptcha.jsp" />">Audio CAPTCHA</a></p>
+    
+    <h1>Present Date and Time </h1>
     <%= new java.util.Date() %>
 </body>
 </html>
