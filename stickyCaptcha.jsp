@@ -19,8 +19,8 @@
 
     <p><a href="<c:url value="simpleCaptcha.jsp" />">Simple CAPTCHA</a> | Sticky CAPTCHA  | <a href="<c:url value="audioCaptcha.jsp" />">Audio CAPTCHA</a></p>
     
-    <h1>Present Date and Time </h1>
-    <h1>Current year </h1>
+    <h1> Current Date and Time </h1>
+  
     <%= new java.util.Date() %>
 </body>
 </html>
